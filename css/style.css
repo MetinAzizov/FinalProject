@@ -31,8 +31,11 @@ body {
     background-color: #72041896 !important;
 
 }
-.color {
+.color_white {
     color: whitesmoke;
+}
+.color_black {
+    color: black;
 }
 
 .bg-orange {
@@ -90,10 +93,6 @@ body {
     text-decoration: underline;
 }
 
-/*---------- Project Class--------------- */
-.searchAdminResult {
-    height: 300px;
-}
 
 .nav-active{
     color: var(--mainColorOrange)!important;
@@ -101,29 +100,9 @@ body {
     text-decoration: underline;
 }
 
-.about-img{
-    width: 570px;
-    height: 310px;
-}
 
-.prev-search{
-    position: absolute;
-    top:42%;
-    left: -5%;
-    cursor: pointer;
 
-}
 
-.next-search{
-    position: absolute;
-    top:42%;
-    right: -5%;
-    cursor: pointer;
-}
-
-.slider-content{
-    height: 420px;
-}
 footer{
     margin-top: auto;
 }
