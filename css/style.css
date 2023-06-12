@@ -71,29 +71,6 @@ body {
     border-radius: 35px !important;
 }
 
-/*---------- Size Class--------------- */
-.height-vh {
-    min-height: 100vh !important;
-}
-
-.font-14 {
-    font-size: 14px !important;
-    font-weight: 400 !important;
-}
-
-.absolute-right {
-    right: 0 !important;
-}
-
-.cursor-pointer {
-    cursor: pointer !important;
-}
-
-.cursor-pointer:hover {
-    text-decoration: underline;
-}
-
-
 .nav-active{
     color: var(--mainColorOrange)!important;
     font-weight:bold;
@@ -106,3 +83,11 @@ body {
 footer{
     margin-top: auto;
 }
+
+#header {
+    position: fixed;
+  }
+  
+  #content {
+    margin-top: 100px;
+  }
